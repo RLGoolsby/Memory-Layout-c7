@@ -8,11 +8,12 @@ main{
 
   border: 1px solid blue;
   margin: 10px auto;
-  background-color: #BEC8CC;
+  background-color: #C7CED1;
 }
 
+/*  HEADER */
+
 .background{
-  text-align: center;
   border: 1px solid green;
   margin: 0em 0.2em 4em 0.2em;
   padding: 1em 0em 2.5em 0em;
@@ -20,6 +21,18 @@ main{
 }
 
 div{
+  text-align: center;
   font-size: 2.5em;
   font-weight: bold;
+}
+
+
+.hearts{
+  margin-top: 10px;
+  font-size: 16px
+}
+
+li{
+  display: inline-block;
+  padding: 2px;
 }
