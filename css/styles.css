@@ -79,19 +79,23 @@ border-radius: 15px;
 margin-bottom:  2px;
 }*/
 
-
+/*********Reworking the Css*/
 body{
-  background: #4078c0;
+  margin: 3% auto;
+  background-color: #C7CED1;
+
 }
 
 .background{
-  max-width: 1000px;
+  max-width: 98%;
+  border: 1px solid blue;
+  margin: 10px auto;
   color: #fff;
 }
 
 
 .header{
-  margin-bottom: 50px;
+  margin-bottom: 1.5em;
 }
 
 
@@ -103,17 +107,63 @@ body{
 
 .header-font {
   font-family: Lato, Verdana sans-serif;
-  font-size:  85px;
+  font-size:  6em;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 35px;
+  color: black;
 }
+
+/*.hearts{*/
+  /*margin-top: 0.2em;*/
+  /*padding-left: 0.1em;*/
+  /*padding-right: 65em;*/
+  /*font-size: 1em;*/
+
+
+li{
+  display: inline-block;
+  margin-top: 30px;
+  color: black;
+
+}
+
+.time{
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 75em;
+}
+
+/*****************************
+/**     Section where cards are   **/
+section{
+/*margin: 3% auto;*/
+max-width: 98%;
+margin: 10px auto;
+}
+
+
+.row1{
+
+
+}
+
+.box{
+ display:inline-block;
+ width: 12.8em;
+ height: 12.8em;
+ background: steelblue;
+ border-radius: 15px;
+}
+
+
 
 
 /*  Homepage  */
 
 
-.NewGame{
+/*.NewGame{
   font-size: 50px;
   text-align: center;
   margin-top: 100px;
@@ -125,4 +175,4 @@ body{
   font-size: 30px;
   text-align: center;
   margin-left: 28%;
-}
+}*/
