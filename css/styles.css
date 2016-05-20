@@ -161,6 +161,8 @@ margin: 5px auto;
 }
 
 
+
+
 .box{
  display:inline-block;
  width: 12.8em;
@@ -184,20 +186,56 @@ padding-bottom: 0.2em;
 
 }
 
+
 .row2{
   padding-bottom: 0.2em;
 }
 
 
 
-/*.card{
+.card{
+  display: inline-block;
   width: 12.8em;
   height: 12.8em;
   background: lightblue;
-  display: block;
   transition: background 1s, transform 1s;
   border-radius: 15px;
-}*/
+  margin: 1px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input {
+  width: 12.8em;
+  height: 12.8em;
+  display: none;
+}
+
+input:checked +.card{
+  background: lightblue;
+  transform: rotateY(180deg);
+}
+.card{
+  position: absolute;
+  text-align: center;
+  /*padding: 75px;*/
+}
+
+
+/******  Individual cards   *****/
+
+/*input:checked +.card .hands{
+  /*opacity: 1;*/
+  /*transition-delay: .5s;
+
+}
+.hands{*/
+  /*margin-top: 90px;
+  margin-left: 90px;*/
+  /*opacity: 0;*/
+
+}
+
 
 
 
