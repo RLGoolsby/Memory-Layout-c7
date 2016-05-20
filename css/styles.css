@@ -171,6 +171,14 @@ margin: 5px auto;
 }
 
 
+.box:hover {
+  -webkit-transition-property: background, border-radius;
+  transition-duration: 1s;
+  background: blue;
+  border-radius: 15px;
+}
+
+
 .row1{
 padding-bottom: 0.2em;
 
@@ -179,6 +187,17 @@ padding-bottom: 0.2em;
 .row2{
   padding-bottom: 0.2em;
 }
+
+
+
+/*.card{
+  width: 12.8em;
+  height: 12.8em;
+  background: lightblue;
+  display: block;
+  transition: background 1s, transform 1s;
+  border-radius: 15px;
+}*/
 
 
 
