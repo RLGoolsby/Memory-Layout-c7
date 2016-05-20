@@ -79,13 +79,18 @@ border-radius: 15px;
 margin-bottom:  2px;
 }*/
 
-/*********Reworking the Css*/
+/**    BODY     **/
 body{
-  margin: 3% auto;
+  margin: 2% auto;
   background-color: #C7CED1;
 
 }
 
+
+/**     BACKGROUND OF PAGE   **/
+/**   (not sure if I need this specifically.
+      I think I could just put the .background
+      and .section in the in the <main>).*/
 .background{
   max-width: 98%;
   border: 1px solid blue;
@@ -94,15 +99,11 @@ body{
 }
 
 
+/***********************************/
+/**       HEADER             **/
 .header{
   margin-bottom: 1.5em;
 }
-
-
-
-/*.banner{
-  margin-top: 55px;
-}*/
 
 
 .header-font {
@@ -113,6 +114,16 @@ body{
   margin-bottom: 35px;
   color: black;
 }
+
+i.fa.fa-question-circle-o{
+  background-color: #F1F2E1;
+  border-radius: 55px;
+  font-size: 6.1;
+}
+
+
+/****************************/
+/**   HEARTS      **/
 
 /*.hearts{*/
   /*margin-top: 0.2em;*/
@@ -128,6 +139,9 @@ li{
 
 }
 
+
+/****************************/
+/**         TIME     **/
 .time{
   color: black;
   font-weight: bold;
@@ -135,19 +149,17 @@ li{
   padding-left: 75em;
 }
 
+
+
+
 /*****************************
-/**     Section where cards are   **/
+/**     CARD  SECTION   **/
 section{
-/*margin: 3% auto;*/
+margin: 3% auto;
 max-width: 98%;
-margin: 10px auto;
+margin: 5px auto;
 }
 
-
-.row1{
-
-
-}
 
 .box{
  display:inline-block;
@@ -155,6 +167,17 @@ margin: 10px auto;
  height: 12.8em;
  background: steelblue;
  border-radius: 15px;
+ /*padding:1px 1px 1px 1px;*/
+}
+
+
+.row1{
+padding-bottom: 0.2em;
+
+}
+
+.row2{
+  padding-bottom: 0.2em;
 }
 
 
