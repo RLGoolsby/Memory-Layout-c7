@@ -383,11 +383,11 @@ input:checked +.card .hand-lizard{
 
 
 
-
+/***********************************************
 /*  Homepage  */
 
 
-/*.NewGame{
+.NewGame{
   font-size: 50px;
   text-align: center;
   margin-top: 100px;
@@ -399,4 +399,34 @@ input:checked +.card .hand-lizard{
   font-size: 30px;
   text-align: center;
   margin-left: 28%;
-}*/
+}
+
+.NewGame.tossing{
+  -webkit-animation-name: tossing;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+.easy{
+  transform: perspective(220px) rotateY(-15deg);
+  margin-top: 60px;
+  border: 3px solid green;
+  padding: 8px 150px 8px 150px;
+}
+
+.easy:hover {
+  background: steelblue;
+}
+
+
+.hard{
+  transform: perspective(220px) rotateY(15deg);
+  margin-top: 60px;
+  border: 3px solid green;
+  padding: 8px 150px 8px 150px;
+}
+
+.hard:hover{
+  background: lightblue;
+}
