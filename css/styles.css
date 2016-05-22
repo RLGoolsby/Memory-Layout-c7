@@ -154,7 +154,7 @@ section{
 
 
 /*************************************
-/**       CARD DISPLAY  (After the flip) **/
+/**       CARD DISPLAY   **/
 
 
 .card{
@@ -164,7 +164,7 @@ section{
   color: white;
   width: 11em;
   height: 11em;
-  background: #2D2E2E;
+  background: #141414;
   transition: background 1s, transform 1s;
   border-radius: 15px;
   margin: 1px;
@@ -183,7 +183,7 @@ input{
 
 /*      FLIP  COMMAND         */
 input:checked +.card{
-  background: #878B8C;
+  background: #545657;
   transform: rotateY(180deg);
 }
 
