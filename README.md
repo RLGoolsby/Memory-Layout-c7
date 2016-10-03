@@ -1,3 +1,3 @@
 # Memory-Layout-c7
 
-Glad it's working and commited to Github Memory.
+Beginning layout of the memory game, creating a match pair.
